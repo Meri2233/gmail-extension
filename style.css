@@ -1,0 +1,52 @@
+/* hide footer */
+/* body.freshness_ui .aeG {
+  display: none;
+} */
+
+/* make some space at bottom */
+body.freshness_ui .aeF {
+	margin-bottom: 50px;
+}
+
+/* hide hamburger on the left */
+body.freshness_ui .gb_Xb{
+  display: none;
+}
+
+/* hide gmail logo and text */
+body.freshness_ui a[href="#inbox"] { 
+	display: none;
+}
+
+/* hide google apps */
+body.freshness_ui .gb_Hd {
+  display: none;
+}
+
+/* hide support  */
+body.freshness_ui .gb_fe.gb_yd {
+  display: none;
+}
+
+/* hide categories from sidemenu */
+body.freshness_ui div[data-tooltip="Categories"]{
+  display: none;
+}
+
+/* hide snoozed */
+body.freshness_ui div[data-tooltip="Snoozed"]{
+  display: none;
+}
+
+/* hide right sidepanel */
+body.freshness_ui div[aria-label="Side panel"], div[aria-label="Toggle side panel"]{
+  display: none;
+}
+
+/* make searchbar full width */
+/* body.freshness_ui #gb .gb_td {
+	padding-right: 0px !important;
+}
+body.freshness_ui #gb .gb_td form{
+	max-width: 100%;
+} */
